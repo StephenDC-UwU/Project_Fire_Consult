@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bevan&family=Rethink+Sans&display=swap" rel="stylesheet">
-    <title>FireConsult</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/logo_bussines.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
         <header>
@@ -41,22 +42,115 @@
             </div>
         </header>
         <main>
-            <section>
-                <h2>Servicios</h2>
+            <section id="service" class="main_service">
+                <h2 class="titulos">Servicios</h2>
                 <div class="container_services">
                     <div class="service">
+                        <img src="./image/service_1.png" alt="">
+                        <p>PROTECCIÓN ACTIVA CONTRA INCENDIOS</p>
+                    </div>
+                    <div class="service">
+                        <img src="./image/service_2.png" alt="">
+                        <p>PROTECCIÓN PASIVA CONTRA INCENDIOS Y EVACUACIÓN DE HUMOS</p>
+                    </div>
+                    <div class="service">
+                        <img src="./image/service_3.png" alt="">
+                        <p>MANTENIMIENTO DE INSTALACIONES DE PROTECCIÓN CONTRA INCENDIOS</p>
+                    </div>
+                    <div class="service">
+                        <img src="./image/service_4.png" alt="">
+                        <p>MONTAJE MECÁNICO DE TUBERÍAS DE PROCESO</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="main_projects">
+                <h2 class="titulos">Proyectos</h2>
+                <div class="container_projects">
+                    <div class="item_project">
+                        <img src="./image/project1.jpg" alt="">
+                    </div>
+                    <div class="item_project">
+                        <img src="./image/project2.jpg" alt="">
+                    </div>
+                    <div class="item_project">
+                        <img src="./image/project3.jpg" alt="">
+                    </div>
+                    <div class="item_project">
+                        <img src="./image/project1.jpg" alt="">
+                    </div>
+                    <div class="item_project">
+                        <img src="./image/project2.jpg" alt="">
+                    </div>
+                    <div class="item_project">
+                        <img src="./image/project3.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="main_certified">
+                <h2 class="titulos">Certificaciones</h2>
+                <div class="container_certified">
+                    <div class="item_certified">
+                        <img src="./image/certificed1.jpg" alt="">
+                    </div>
+                    <div class="item_certified">
+                        <img src="./image/certificed2.jpg" alt="">
+                    </div>
+                    <div class="item_certified">
+                        <img src="./image/certificed3.jpg" alt="">
+                    </div>
+                    <div class="item_certified">
+                        <img src="./image/certificed4.jpg" alt="">
+                    </div>
+                </div>
+                <h2 class="titulos">Registrado</h2>
+                <div class="container_certified">
+                    <div class="item_certified">
+                        <img src="./image/register1.jpg" alt="">
+                    </div>
+                    <div class="item_certified">
+                        <img src="./image/register2.jpg" alt="">
+                    </div>
+                </div>
+            </section>
 
+            <section class="contact">
+                <div class="container_contact">
+                    <div class="container-text">
+                        <h2>¿Necesitas Contactarnos?</h2>
+                        <img src="/image/contact.jpg" alt="">
                     </div>
-                    <div class="service">
-                        
-                    </div>
-                    <div class="service">
-                        
+                    <div class="container-formulario">
+                        <form class="container-formulario" action="" method="GET">
+                            <label for="GET-name"></label>
+                            <input id="GET-name" type="text" name="name" placeholder="Nombre">
+                            <label for="GET-correo"></label>
+                            <input id="GET-correo" type="email" name="correo" placeholder="Correo">
+                            <label for="GET-text"></label>
+                            <textarea name="text" id="text" cols="30" rows="10" placeholder="Introduzca su Peticion"></textarea>
+                            <input class="btn-contact" type="button" value="Enviar">
+                        </form>
                     </div>
                 </div>
             </section>
         </main>
-
-
+        <footer>
+            <div class="container-footer">
+                <div class="container-text-footer">
+                    <p>Contactanos</p>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <p>Numero:xxxxxxx</p>
+                    <p>corrreo@gmail.com</p>
+                    <p>Direccion:xxxxxxxx</p>
+                </div>
+                <div class="container-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.4282352446244!2d-3.701933437328098!3d40.3106525660253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42211f6f85958f%3A0xbb2dfeba28c7b6a0!2sFire%20Consult!5e0!3m2!1ses!2ses!4v1702835606942!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <p class="text-copy">Todos los derechos reservados</p>
+        </footer>
 </body>
 </html>
